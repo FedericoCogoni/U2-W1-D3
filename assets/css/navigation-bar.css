@@ -1,0 +1,43 @@
+.navBackground {
+  background-color: #faf5e2;
+}
+nav {
+  display: flex;
+  gap: 2em;
+  padding-block: 1em;
+  align-content: space-around;
+}
+.logo {
+  max-width: 40%;
+  min-width: 40%;
+}
+.main {
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+@media only screen and(max-width:480px) {
+  nav {
+    flex-wrap: wrap;
+  }
+}
+.buttonNav {
+  background-color: #f3df85;
+  padding: 1em 2em;
+  border-radius: 65px;
+  width: 30%;
+  align-self: center;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #612406;
+}
+@media screen and (max-width: 576px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}

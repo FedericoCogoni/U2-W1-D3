@@ -1,0 +1,46 @@
+.card {
+  width: 100%;
+  background-color: #faf5e2;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  color: #612406;
+  gap: 20px;
+  overflow: hidden;
+}
+.honeyCard {
+  object-fit: cover;
+  height: 60%;
+}
+.bio {
+  font-weight: bold;
+}
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.button {
+  background-color: #f3df85;
+  padding: 0.7em 2em;
+  border-radius: 15px;
+  align-self: center;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .card {
+    width: 25%;
+  }
+}
